@@ -1,0 +1,14 @@
+.logo_img{
+    height: 300px;
+}
+.cover{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    background-color: blue;
+    z-index: 0;
+    background-image: url(../assets/dots.png), url(../assets/lines.png);
+    background-blend-mode: exclusion;
+    filter: grayscale(100%);
+    background-size: 100px, 200px;
+}
