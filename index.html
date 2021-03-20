@@ -10,51 +10,73 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/homepage.css">
+    <style>
+    </style>
     
 </head>
 <body>
     <div class="cover" id="parallax"></div>
-    <div class="nav white-text">
-        <div class="row navText">
-            <div class="col m2"><h6><a href="/">Home</a></h6></div>
-            <div class="col m2"><h6><a href="/">Events</a></h6></div>
-            <div class="col m2"><h6><a href="/">Team</a></h6></div>
-            <div class="col m2"><h6><a href="/">Sponsors</a></h6></div>
-            <div class="col m2"><h6><a href="/">Contact Us</a></h6></div>
-            <div class="col m2"><h6><a href="/">FAQs</a></h6></div>
+    <!--
+    <div id="navBar" style="width: 100%; height: 60px; position: absolute; z-index: 10;">  
+        <div class="nav white-text">
+            <canvas id="canvasNav"  style="position: fixed; top: 0; left: 0;">
+                <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    const c = document.getElementById("canvasNav");
+                    var w = c.width = window.innerWidth;
+                    var h = c.height = 60;
+                    var ctx = c.getContext('2d');
+                    ctx.fillStyle = 'black';
+                    ctx.beginPath();
+                    ctx.moveTo(w/20, 0);
+                    ctx.lineTo(w/10, h);
+                    ctx.lineTo(w-w/10, h);
+                    ctx.lineTo(w-w/20, 0);
+                    ctx.closePath();
+                    ctx.strokeStyle = "azure";
+                    ctx.stroke();
+                    ctx.filter = "blur(50px)";
+                    ctx.fill();
+                });
+                </script>
+            </canvas>
+            <div class="row navText" style="position: fixed; width: 80%;">
+                <div class="col m2"><h5><a href="/">Home</a></h5></div>
+                <div class="col m2"><h5><a href="/">Events</a></h5></div>
+                <div class="col m2"><h5><a href="/">Team</a></h5></div>
+                <div class="col m2"><h5><a href="/">Sponsors</a></h5></div>
+                <div class="col m2"><h5><a href="/">Contact Us</a></h5></div>
+                <div class="col m2"><h5><a href="/">FAQs</a></h5></div>
+            </div>
+            
         </div>
     </div>
-    <canvas id="canvasNav" style="position: fixed;">
-        <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const c = document.getElementById("canvasNav");
-            var w = c.width = window.innerWidth;
-            var h = c.height = 40;
-            var ctx = c.getContext('2d');
-            ctx.fillStyle = 'black';
-            ctx.beginPath();
-            ctx.moveTo(w/20, 0);
-            ctx.lineTo(w/10, h);
-            ctx.lineTo(w-w/10, h);
-            ctx.lineTo(w-w/20, 0);
-            ctx.closePath();
-            ctx.strokeStyle = "azure";
-            ctx.stroke();
-            ctx.filter = "blur(50px)";
-            ctx.fill();
-        });
-        </script>
-    </canvas>
-    <!--
-        <div style="position: fixed; left: 20%;">
-        <img src="http://brightmedia.pl/assets/shine1.png" alt="" srcset="">
-    </div>
-    <div style="position: fixed; left: -30%;top: -10%;">
-        <img src="http://brightmedia.pl/assets/shine3.png" alt="" srcset="">
-    </div>
     -->
-    <div class="gradBg" style="position: fixed; height: 100%; width: 100%;">
-
+    <div class="navbar-fixed " style="position: fixed;">
+        <nav class="black" role="navigation">
+            <div class="nav-wrapper container">
+                <a id="logo-container" href="./" class="brand-logo" style="font-size:20px; height: 100%;">
+                    <div class="row valign-wrapper" style="height: 100%;">
+                        <div class="col logo" style="height: 100%;">
+                            <img src="./assets/technunctus_logo.png" style="height: 80%;margin-top: 10%;">
+                        </div>
+                        <div class="col">
+                            <h5 style="font-size: 20px; margin: 0;">Technunctus</h5>
+                        </div>
+                    </div>
+                </a>
+                <ul class="right hide-on-med-and-down ">
+                    <li><a href="./about.html">Events</a></li>
+                    <li><a href="./domains.html">Team</a></li>
+                    <li><a href="./rules.html">Sponsors</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./contact.html">FAQs</a></li>
+                </ul>
+                <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons black-text">menu</i></a>
+            </div>
+        </nav>
+    </div>
+    <div class="gradBg" style="position: fixed; height: 100%; width: 100%; top: 0;">
     </div>
     <div class="valign-wrapper" style="height: 100vh; width: 100%; z-index: 2; position: relative;;">
         <div class="container">
@@ -69,10 +91,15 @@
             </div>
         </div>
     </div>
+    <!--
+        <div  style="width: 100%; height: 500px; z-index: 2; position: relative;">
+    </div>
+    -->
 
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.js"></script>
-    <script src="https://unpkg.com/tilt.js@1.1.19/dest/tilt.jquery.js"></script>
+    <!--<script src="https://unpkg.com/tilt.js@1.1.19/dest/tilt.jquery.js"></script>-->
+    <script src="./js/tilt.jquery.js"></script>
     <script>
         (function() {
             // Add event listener
