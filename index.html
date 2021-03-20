@@ -7,21 +7,64 @@
     <title>Technunctus</title>
     <meta name="description" content="3rd Edition of IIT Jammu`s Technical Fest">
     <link rel="shortcut icon" href="./logo.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./assets/carousel/carousel.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/homepage.css">
+    
 </head>
 <body>
     <div class="cover" id="parallax"></div>
+    <div class="nav white-text">
+        <div class="row navText">
+            <div class="col m2"><h6><a href="/">Home</a></h6></div>
+            <div class="col m2"><h6><a href="/">Events</a></h6></div>
+            <div class="col m2"><h6><a href="/">Team</a></h6></div>
+            <div class="col m2"><h6><a href="/">Sponsors</a></h6></div>
+            <div class="col m2"><h6><a href="/">Contact Us</a></h6></div>
+            <div class="col m2"><h6><a href="/">FAQs</a></h6></div>
+        </div>
+    </div>
+    <canvas id="canvasNav" style="position: fixed;">
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const c = document.getElementById("canvasNav");
+            var w = c.width = window.innerWidth;
+            var h = c.height = 40;
+            var ctx = c.getContext('2d');
+            ctx.fillStyle = 'black';
+            ctx.beginPath();
+            ctx.moveTo(w/20, 0);
+            ctx.lineTo(w/10, h);
+            ctx.lineTo(w-w/10, h);
+            ctx.lineTo(w-w/20, 0);
+            ctx.closePath();
+            ctx.strokeStyle = "azure";
+            ctx.stroke();
+            ctx.filter = "blur(50px)";
+            ctx.fill();
+        });
+        </script>
+    </canvas>
+    <!--
+        <div style="position: fixed; left: 20%;">
+        <img src="http://brightmedia.pl/assets/shine1.png" alt="" srcset="">
+    </div>
+    <div style="position: fixed; left: -30%;top: -10%;">
+        <img src="http://brightmedia.pl/assets/shine3.png" alt="" srcset="">
+    </div>
+    -->
+    <div class="gradBg" style="position: fixed; height: 100%; width: 100%;">
+
+    </div>
     <div class="valign-wrapper" style="height: 100vh; width: 100%; z-index: 2; position: relative;;">
         <div class="container">
-            <div class="row valign-wrapper" >
-                <div class="col">
+            <div class="row midEle" id="tilt">
+                <div class="col s12 m4 l5 center">
                     <img src="./assets/technunctus_logo.png" alt="logo" class="logo_img">
                 </div>
-                <div class="col white-text">
-                    <h3>Comming Soon</h3>
+                <div class="col s12 m8 l7 white-text" style="text-align: center;">
+                    <h3>Technunctus 2021</h3>
+                    <h4>17th & 18th April</h4>
                 </div>
             </div>
         </div>
@@ -29,26 +72,42 @@
 
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.js"></script>
+    <script src="https://unpkg.com/tilt.js@1.1.19/dest/tilt.jquery.js"></script>
     <script>
         (function() {
-    // Add event listener
-    document.addEventListener("mousemove", parallax);
-    const elem = document.querySelector("#parallax");
-    // Magic happens here
-    function parallax(e) {
-        let _w = window.innerWidth/2;
-        let _h = window.innerHeight/2;
-        let _mouseX = e.clientX;
-        let _mouseY = e.clientY;
-        let _depth1 = `${50 - (_mouseX - _w) * 0.01}% ${50 - (_mouseY - _h) * 0.01}%`;
-        let _depth2 = `${50 - (_mouseX - _w) * 0.02}% ${50 - (_mouseY - _h) * 0.02}%`;
-        let _depth3 = `${50 - (_mouseX - _w) * 0.06}% ${50 - (_mouseY - _h) * 0.06}%`;
-        let x = `${_depth3}, ${_depth2}, ${_depth1}`;
-        console.log(x);
-        elem.style.backgroundPosition = x;
-    }
+            // Add event listener
+            document.addEventListener("mousemove", parallax);
+            const elem = document.querySelector("#parallax");
+            // Magic happens here
+            function parallax(e) {
+                let _w = window.innerWidth/2;
+                let _h = window.innerHeight/2;
+                let _mouseX = e.clientX;
+                let _mouseY = e.clientY;
+                let _depth1 = `${50 - (_mouseX - _w) * 0.01}% ${50 - (_mouseY - _h) * 0.01}%`;
+                let _depth2 = `${50 - (_mouseX - _w) * 0.02}% ${50 - (_mouseY - _h) * 0.02}%`;
+                let _depth3 = `${50 - (_mouseX - _w) * 0.06}% ${50 - (_mouseY - _h) * 0.06}%`;
+                let x = `${_depth3}, ${_depth2}, ${_depth1}`;
+                elem.style.backgroundPosition = x;
+            }
+        })();
+    </script>
+    <script>
+        ( function( $ ) {
 
-})();
+"use strict";
+
+    $("#tilt").tilt({
+    maxTilt: 15,
+    perspective: 1400,
+    easing: "cubic-bezier(.03,.98,.52,.99)",
+    speed: 1200,
+    glare: true,
+    maxGlare: 0.2,
+    scale: 1.04
+    });
+
+    }( jQuery ) );
     </script>
 
 </body>
