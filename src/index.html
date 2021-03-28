@@ -15,6 +15,7 @@
   <div class="cover" id="parallax"></div>
 
   <app-root></app-root>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script>
     (function() {
         // Add event listener
@@ -33,6 +34,15 @@
             elem.style.backgroundPosition = x;
         }
     })();
+  </script>
+  <script>
+    (function($){
+  $(function(){
+    $('.sidenav').sidenav();
+    $('.parallax').parallax();
+
+  }); // end of document ready
+})(jQuery); // end of jQuery name space
   </script>
 </body>
 </html>

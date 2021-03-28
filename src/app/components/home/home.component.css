@@ -1,0 +1,15 @@
+.midEle{
+    display: flex;
+    -webkit-align-items: center;
+}
+
+.logo_img{
+    max-width: 100%;
+    width: 270px;
+}
+
+@media only screen and (max-width : 600px) {
+    .midEle{
+        display: block;
+    }
+}
