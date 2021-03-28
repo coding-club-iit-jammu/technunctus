@@ -9,14 +9,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  
+
 </head>
 <body class="mat-typography">
   <div class="cover" id="parallax"></div>
-  
+
   <app-root></app-root>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="assets/js/tilt.jquery.js"></script>
   <script>
     (function() {
         // Add event listener
@@ -35,23 +33,6 @@
             elem.style.backgroundPosition = x;
         }
     })();
-  </script>
-  <script>
-    ( function( $ ) {
-
-    "use strict";
-
-    $("#tilt").tilt({
-    maxTilt: 15,
-    perspective: 1400,
-    easing: "cubic-bezier(.03,.98,.52,.99)",
-    speed: 1200,
-    glare: true,
-    maxGlare: 0.2,
-    scale: 1.04
-    });
-
-    }( jQuery ) );
   </script>
 </body>
 </html>
