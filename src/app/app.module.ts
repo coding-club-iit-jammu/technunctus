@@ -6,11 +6,15 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './components/home/home.component';
 import { AngularTiltModule } from 'angular-tilt';
+import { EventsComponent } from './components/events/events.component';
+import { TeamComponent } from './components/team/team.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    EventsComponent,
+    TeamComponent
   ],
   imports: [
     BrowserModule,

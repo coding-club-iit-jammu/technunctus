@@ -7,8 +7,8 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     height: 100vh;
     width: 100%;
     position: fixed;
-    background-color: blue;
-    z-index: 0;
+    background-color:rgba(0, 0, 255, 0.77);
+    z-index: 1;
     background-image: url(assets/dots.png), url(assets/lines.png);
     background-blend-mode: exclusion;
     filter: grayscale(100%);
