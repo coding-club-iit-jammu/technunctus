@@ -1,0 +1,16 @@
+.eventCard{
+    transition: all 300ms ease-out;
+    margin-top: 80px;
+}
+.eventCard:hover {
+    transition: all 300ms ease-in;
+    transform: scale(1.02);
+    border-radius: 10px;
+    z-index: 1;
+}
+.mat-stroked-button{
+    border-color: rgba(255, 255, 255, 0.97);
+}
+button:focus{
+    background-color: transparent !important;
+}

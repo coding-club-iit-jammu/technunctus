@@ -1,7 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: 'New Tegomin', serif; }
+.mat-typography, .mat-typography h1, .mat-typography h2, .mat-typography h3, .mat-typography h4{
+    font-family: 'New Tegomin', serif !important;
+}
 
 .cover{
     height: 100vh;

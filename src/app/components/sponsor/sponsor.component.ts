@@ -1,11 +1,11 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
 declare var M: any;
 @Component({
-  selector: 'app-team',
-  templateUrl: './team.component.html',
-  styleUrls: ['./team.component.css']
+  selector: 'app-sponsor',
+  templateUrl: './sponsor.component.html',
+  styleUrls: ['./sponsor.component.css']
 })
-export class TeamComponent implements OnInit, AfterViewInit {
+export class SponsorComponent implements OnInit, AfterViewInit {
 
   constructor() { }
 

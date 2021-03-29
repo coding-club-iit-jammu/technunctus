@@ -8,19 +8,23 @@ import { HomeComponent } from './components/home/home.component';
 import { AngularTiltModule } from 'angular-tilt';
 import { EventsComponent } from './components/events/events.component';
 import { TeamComponent } from './components/team/team.component';
+import {MatButtonModule} from '@angular/material/button';
+import { SponsorComponent } from './components/sponsor/sponsor.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     EventsComponent,
-    TeamComponent
+    TeamComponent,
+    SponsorComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    AngularTiltModule
+    AngularTiltModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
