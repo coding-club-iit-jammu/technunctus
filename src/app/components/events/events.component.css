@@ -1,6 +1,6 @@
 .eventCard{
     transition: all 300ms ease-out;
-    margin-top: 80px;
+    margin-bottom: 80px;
 }
 .eventCard:hover {
     transition: all 300ms ease-in;

@@ -10,7 +10,9 @@
 <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet"> 
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="assets/carousel/css/background.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  
 
 </head>
 <body class="mat-typography">
@@ -22,6 +24,12 @@
     $('.sidenav').sidenav();
   }); // end of document ready
 })(jQuery); // end of jQuery name space
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 600
+    });
   </script>
 </body>
 </html>
