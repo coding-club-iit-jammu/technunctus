@@ -31,7 +31,7 @@ export class EventsComponent implements OnInit, AfterViewInit {
       },
       {
         'title' : 'Online puzzle game',
-        'img' : 'https://www.codingclubiitjammu.tech/Technunctus_2020/assets/images/tpc.png',
+        'img' : 'assets/events/puzzle.png',
         'description' : `The event aims to have fun while coding. One has to
                         either code or find the hint to solve a technical problem.
                         The one to complete the maximum number of levels will
