@@ -23,90 +23,89 @@ export class TeamComponent implements OnInit, AfterViewInit {
   createTeam(){
     this.team = [
       {
-        'name' : 'Rishabh Ranjan',
+        'name' : 'Rishabh',
         'img' : 'rishabh.jpg',
-        'position' : 'Chairman'
+        'position' : 'Chairman',
+        'phone' : '9622804256'
       },
       {
-        'name' : 'Shubham Gupta',
+        'name' : 'Shubham',
         'img' : 'default.png',
-        'position' : 'Convenor'
+        'position' : 'Convenor',
+        'phone' : '8082437683'
       },
       {
         'name' : 'Abhinav',
         'img' : 'Abhinav.jpg',
-        'position' : 'Convenor'
+        'position' : 'Convenor',
+        'phone' : '8511507692'
       },
       {
         'name' : 'Abhishek',
         'img' : 'abhis.jpeg',
-        'position' : 'Coding Club Head'
+        'position' : 'Coding Club Head',
+        'phone' : '9794866746'
       },
       {
         'name' : 'Abhyam',
         'img' : 'abhyam.jpg',
-        'position' : 'Robotics Club Head'
+        'position' : 'Robotics Club Head',
+        'phone' : '7206683371'
       },
       {
-        'name' : 'Akshat Mehra',
+        'name' : 'Akshat',
         'img' : 'default.png',
-        'position' : 'Astronomy Club Head'
+        'position' : 'Astronomy Club Head',
+        'phone' : '9797092089'
       },
       {
         'name' : 'Amol Jaggi',
         'img' : 'amol.jpg',
-        'position' : 'SAE Club Head'
+        'position' : 'SAE Club Head',
+        'phone' : '9906293894'
       },
       {
         'name' : 'Apurv',
         'img' : 'Apurv.jpg',
-        'position' : 'Media Team Head'
+        'position' : 'Media Team Head',
+        'phone' : '7455023823'
       },
       {
         'name' : 'Lovish Bains',
         'img' : 'lovish.jpg',
-        'position' : 'Design Team Head'
+        'position' : 'Design Team Head',
+        'phone' : '7497808239'
       },
       {
         'name' : 'Shreyas',
         'img' : 'Shreyas.jpg',
-        'position' : 'Overall Event Head'
+        'position' : 'Overall Event Head',
+        'phone' : '7000172797'
       },
       {
         'name' : 'Dhiraj',
         'img' : 'default.png',
-        'position' : 'Marketing & Sponsorship Head'
+        'position' : 'Marketing & Sponsorship Head',
+        'phone' : '9850192860'
       },
       {
         'name' : 'Abhishek Suman',
         'img' : 'abhishek_suman.jpg',
-        'position' : 'Marketing & Sponsors'
+        'position' : 'Marketing & Sponsors Head',
+        'phone' : '7018995400'
       },
       {
         'name' : 'Jaswant',
         'img' : 'jaswant.jpg',
-        'position' : 'Networking & Outreach Head'
+        'position' : 'Networking & Outreach Head',
+        'phone' : '8107820647'
       },
       {
         'name' : 'Priyanshu',
         'img' : 'priyanshu.jpg',
-        'position' : 'Networking & Outreach Head'
-      },
-      {
-        'name' : 'Sachin',
-        'img' : 'sachin.jpg',
-        'position' : 'Event Head (Blockchain)'
-      },
-      {
-        'name' : 'Sai Vishnu',
-        'img' : 'sai_vishnu.jpg',
-        'position' : 'Event Head (Beacon)'
-      },
-      {
-        'name' : 'Siddharth',
-        'img' : 'default.png',
-        'position' : 'Event Head (Treasure Hunt)'
-      },
+        'position' : 'Networking & Outreach Head',
+        'phone' : '6388115067'
+      }
     ]
   }
 

@@ -15,9 +15,11 @@
       <div class="single-person">
         <div class="person-image">
           <img src="assets/team/{{person['img']}}" alt="">
-          <span class="icon">
-            <i class="fab fa-whatsapp"></i>
-          </span>
+          <a href="https://api.whatsapp.com/send/?phone=+91{{person['phone']}}" target="_blank">
+            <span class="icon">
+              <i class="fab fa-whatsapp"></i>
+            </span>
+          </a>
         </div>
         <div class="person-info">
           <h3 class="full-name">{{person['name']}}</h3>
