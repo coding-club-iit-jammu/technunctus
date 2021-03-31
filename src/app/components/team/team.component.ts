@@ -29,6 +29,12 @@ export class TeamComponent implements OnInit, AfterViewInit {
         'phone' : '9622804256'
       },
       {
+        'name' : 'Shreyas',
+        'img' : 'Shreyas.jpg',
+        'position' : 'Overall Event Head',
+        'phone' : '7000172797'
+      },
+      {
         'name' : 'Shubham',
         'img' : 'default.png',
         'position' : 'Convenor',
@@ -59,7 +65,7 @@ export class TeamComponent implements OnInit, AfterViewInit {
         'phone' : '9797092089'
       },
       {
-        'name' : 'Amol Jaggi',
+        'name' : 'Amol',
         'img' : 'amol.jpg',
         'position' : 'SAE Club Head',
         'phone' : '9906293894'
@@ -71,16 +77,10 @@ export class TeamComponent implements OnInit, AfterViewInit {
         'phone' : '7455023823'
       },
       {
-        'name' : 'Lovish Bains',
+        'name' : 'Lovish',
         'img' : 'lovish.jpg',
         'position' : 'Design Team Head',
         'phone' : '7497808239'
-      },
-      {
-        'name' : 'Shreyas',
-        'img' : 'Shreyas.jpg',
-        'position' : 'Overall Event Head',
-        'phone' : '7000172797'
       },
       {
         'name' : 'Dhiraj',
@@ -89,7 +89,7 @@ export class TeamComponent implements OnInit, AfterViewInit {
         'phone' : '9850192860'
       },
       {
-        'name' : 'Abhishek Suman',
+        'name' : 'Abhishek',
         'img' : 'abhishek_suman.jpg',
         'position' : 'Marketing & Sponsors Head',
         'phone' : '7018995400'
@@ -108,5 +108,4 @@ export class TeamComponent implements OnInit, AfterViewInit {
       }
     ]
   }
-
 }
