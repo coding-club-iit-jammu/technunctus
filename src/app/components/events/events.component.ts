@@ -23,6 +23,7 @@ export class EventsComponent implements OnInit, AfterViewInit {
       {
         'title' : 'Technunctus Programming Contest',
         'img' : 'assets/events/tpc.png',
+        'code' : 'TPC21',
         'description' : `This is a team programming contest, where participants
                         will be given some algorithmic problems to solve within
                         2-3 hours. Participants can use any language of their
@@ -30,8 +31,9 @@ export class EventsComponent implements OnInit, AfterViewInit {
                         online round. Top 3 Teams will be eligible for the prizes.`
       },
       {
-        'title' : 'Online puzzle game',
+        'title' : 'Conundrum',
         'img' : 'assets/events/puzzle.png',
+        'code' : 'CONUNDRUM',
         'description' : `The event aims to have fun while coding. One has to
                         either code or find the hint to solve a technical problem.
                         The one to complete the maximum number of levels will
@@ -39,6 +41,7 @@ export class EventsComponent implements OnInit, AfterViewInit {
       },
       {
         'title' : 'Beacon',
+        'code' : 'BEACON',
         'img' : 'https://www.codingclubiitjammu.tech/Technunctus_2020/assets/images/tpc.png',
         'description' : `This event is an opportunity for the students to explore
                         and bring out their maximum potential in innovation
@@ -50,6 +53,7 @@ export class EventsComponent implements OnInit, AfterViewInit {
       },
       {
         'title' : 'CADstar',
+        'code' : 'CADSTAR',
         'img' : 'https://www.codingclubiitjammu.tech/Technunctus_2020/assets/images/tpc.png',
         'description' : `CADstar is a unique one of its kind competitions where
                           designing, analysis and simulation skills along with
@@ -59,6 +63,7 @@ export class EventsComponent implements OnInit, AfterViewInit {
       },
       {
         'title' : 'MasterCAD',
+        'code' : 'MASTERCAD',
         'img' : 'https://www.codingclubiitjammu.tech/Technunctus_2020/assets/images/tpc.png',
         'description' : `CAD forms a crucial component of not just engineering
                           but of other domains as well. Workshops from
@@ -71,6 +76,7 @@ export class EventsComponent implements OnInit, AfterViewInit {
       },
       {
         'title' : 'Guest Talk',
+        'code' : 'ROBOGT',
         'img' : 'https://www.codingclubiitjammu.tech/Technunctus_2020/assets/images/tpc.png',
         'description' : `Get ready to know the technicalities of the Perseverance
                         rover sent by NASA recently to seek signs of ancient life
@@ -79,7 +85,8 @@ export class EventsComponent implements OnInit, AfterViewInit {
                         throwing light on this buzzing topic.`
       },
       {
-        'title' : 'Robbecca',
+        'title' : 'Rebbecca',
+        'code' : 'ROBOREBB',
         'img' : 'https://www.codingclubiitjammu.tech/Technunctus_2020/assets/images/tpc.png',
         'description' : `Hit and Trail is one of the fundamental practices which
                           have been the enlightenment candle for the human
@@ -96,6 +103,7 @@ export class EventsComponent implements OnInit, AfterViewInit {
       },
       {
         'title' : 'HDL Coding Contest',
+        'code' : 'ROBOHDL',
         'img' : 'https://www.codingclubiitjammu.tech/Technunctus_2020/assets/images/tpc.png',
         'description' : `This is a digital design contest, where participants will be
                         given some real life problems to solve within 2-2.5 hours.
@@ -104,6 +112,7 @@ export class EventsComponent implements OnInit, AfterViewInit {
       },
       {
         'title' : 'Treasure Hunt',
+        'code' : 'ASTROTH',
         'img' : 'https://www.codingclubiitjammu.tech/Technunctus_2020/assets/images/tpc.png',
         'description' : `Astronomy Club presents Treasure Hunt for
                         Technunctus ‘21 edition. Participants have to solve
@@ -114,6 +123,7 @@ export class EventsComponent implements OnInit, AfterViewInit {
       },
       {
         'title' : 'AstroChallenge',
+        'code' : 'ASTROCH',
         'img' : 'https://www.codingclubiitjammu.tech/Technunctus_2020/assets/images/tpc.png',
         'description' : `This is an exclusive event wherein the participants will
                           have to find solutions to some mind-bending astronomy
@@ -122,6 +132,7 @@ export class EventsComponent implements OnInit, AfterViewInit {
       },
       {
         'title' : 'Astronomy Guest Talk',
+        'code' : 'ASTROGT',
         'img' : 'https://www.codingclubiitjammu.tech/Technunctus_2020/assets/images/tpc.png',
         'description' : `This will be a workshop on the topic on the theme of
                         astronomy/astrophysics. The event will be conducted by

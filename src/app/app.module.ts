@@ -10,6 +10,7 @@ import { EventsComponent } from './components/events/events.component';
 import { TeamComponent } from './components/team/team.component';
 import {MatButtonModule} from '@angular/material/button';
 import { SponsorComponent } from './components/sponsor/sponsor.component';
+import { SingleeventComponent } from './components/singleevent/singleevent.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { SponsorComponent } from './components/sponsor/sponsor.component';
     HomeComponent,
     EventsComponent,
     TeamComponent,
-    SponsorComponent
+    SponsorComponent,
+    SingleeventComponent
   ],
   imports: [
     BrowserModule,

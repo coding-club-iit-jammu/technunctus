@@ -1,0 +1,8 @@
+h1{
+    font-size: 2rem;
+}
+li{
+    list-style-type: square !important;
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+}
