@@ -60,6 +60,7 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
     var event = {
       'name' : 'Guest Talk',
       'img' : 'assets/events/preservance_rover.png',
+      'link' : '',
       'desc' : `Get ready to know the technicalities of the Perseverance
                 rover sent by NASA recently to seek signs of ancient life
                 and collect samples of rock from Mars. Guest Nachit
@@ -88,6 +89,7 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
     var event = {
       'name' : 'HDL Coding Contest',
       'img' : 'assets/events/vhdl.png',
+      'link' :'https://forms.gle/HKL2NmKc2NVdcFN56',
       'desc' : `This is a digital design contest, where participants will be
               given some real life problems to solve within 2-2.5 hours.
               Participants can use VHDL or Verilog to code their
@@ -123,6 +125,7 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
     var event = {
       'name' : 'Rebbecca',
       'img' : 'assets/events/rebeca.png',
+      'link' :'https://forms.gle/KxLHzE3Y1vxqBb8p9',
       'desc' : `Hit and Trail is one of the fundamental practices which
                 have been the enlightenment candle for the human
                 civilization, you all would have at any point of time have
@@ -161,6 +164,7 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
     var event = {
       'name' : 'AstroChallenge',
       'img' : 'assets/events/astro_challenge.png',
+      'link' :'https://forms.gle/B8uBHBuD3zSXqufZ9',
       'desc' : `This is an exclusive event wherein the participants will
                 have to find solutions to some mind-bending astronomy
                 problems statements within a given time frame. The top
@@ -195,6 +199,7 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
     var event = {
       'name' : 'Astronomy Guest Talk',
       'img' : 'assets/events/astrophysics.png',
+      'link' :'',
       'desc' : `This will be a workshop on the topic on the theme of
                 astronomy/astrophysics. The event will be conducted by
                 a senior scientist/researcher in the field of astrophysics.`,
@@ -220,6 +225,7 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
     var event = {
       'name' : 'Treasure Hunt',
       'img' : 'assets/events/treasure_hunt.png',
+      'link' :'',
       'desc' : `Astronomy Club presents Treasure Hunt for
                 Technunctus ‘21 edition. Participants have to solve
                 many pieces of a puzzle with the help of given hints to
@@ -255,6 +261,7 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
     var event = {
       'name' : 'MasterCAD',
       'img' : 'assets/events/mastercad.png',
+      'link' :'https://forms.gle/9mXtoGGj1uBQpFq86',
       'desc' : `CAD forms a crucial component of not just engineering
                 but of other domains as well. Workshops from
                 professionals itself would help get a feel of how things
@@ -289,6 +296,7 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
     var event = {
       'name' : 'Technunctus Programming Comptetion',
       'img' : 'assets/events/tpc.png',
+      'link' :'https://forms.gle/YCCF3t8XE6JqNhPt6',
       'desc' : `This is a team programming contest, whereparticipants will be given some
                 algorithmicproblems  to  solve  within  2-3  hours.Participants can use
                 any language of theirchoice to code their solutions. This event willbe a
@@ -322,6 +330,7 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
     var event = {
       'name' : 'Conundrum',
       'img' : 'assets/events/puzzle.png',
+      'link' :'https://docs.google.com/forms/d/e/1FAIpQLSctibXGmRTdBdthynkW5VWlIEXl5kGdyjbU5L5GjzSYeMfEuQ/viewform?usp=sf_link',
       'desc' : `The event aims to have fun while coding. One has to
                   either code or find the hint to solve a technical problem.
                   The one to complete the maximum number of levels will
@@ -355,6 +364,7 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
     var event = {
       'name' : 'Beacon',
       'img' : 'assets/events/beacon.png',
+      'link' :'https://forms.gle/3SGYB6uQEKA7fGK48',
       'desc' : `This event is an opportunity for the students to explore
                 and bring out their maximum potential in innovation
                 and creativity in technical expertise. Participants are
@@ -391,6 +401,7 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
     var event = {
       'name' : 'CADstar',
       'img' : 'assets/events/cadstar.png',
+      'link' :'https://forms.gle/LZXQ7EypPPaG17Mu7',
       'desc' : `Performance, reliability and market arewhat drives the designs in modernengineering.
                 You might find a lot of designsfor the same thing but not all of them makeit to the top.
                 Do you have what it takes tomake a perfect engineering design?CADstar  is  a  unique  one 

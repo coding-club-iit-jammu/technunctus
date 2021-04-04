@@ -14,7 +14,7 @@
         <h2 style="text-align: justify;">
             {{event['desc']}}
         </h2>
-        <button mat-raised-button color="basic">Register Now</button>
+        <a mat-raised-button color="basic" href="{{event['link']}}" target="_blank" [disabled]="event['link']==''">Register Now</a>
     </div>
     <div class="row">
         <div class="col s12 m7 l8">
