@@ -36,7 +36,7 @@ export class TeamComponent implements OnInit, AfterViewInit {
       },
       {
         'name' : 'Shubham',
-        'img' : 'default.png',
+        'img' : 'Shubham.jpg',
         'position' : 'Convenor',
         'phone' : '8082437683'
       },
@@ -84,7 +84,7 @@ export class TeamComponent implements OnInit, AfterViewInit {
       },
       {
         'name' : 'Dhiraj',
-        'img' : 'default.png',
+        'img' : 'Dhiraj.jpg',
         'position' : 'Marketing & Sponsorship Head',
         'phone' : '9850192860'
       },
