@@ -370,13 +370,12 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
                 and creativity in technical expertise. Participants are
                 required to come up with interesting and innovative
                 solutions to tackle the real life challenges faced by
-                industries. There would be expert speeches by the
-                speakers on industries and other engineering fields.`,
+                industries. There would be a short Q&A session at the end of each presentation.`,
       'guidelines' : [
         'Team size - Minimum 2 , Maximum 4',
         'Presentation (time limit)    - 10 min',
         'Q/A session (by judging panel) - 5 min',
-        'Submission of soft- 12 hrs beforethe event',
+        'Submission of soft copy- 12 hrs before the event',
         'Prizes worth Rs. 9K'
       ],
       'conduct' : [
