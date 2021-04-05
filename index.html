@@ -27,10 +27,23 @@
 
   gtag('config', 'UA-193856325-1');
 </script>
+  <script>
+  $(window).load(function(){
+    $('#loader').fadeOut();
+});
+</script>
 
 
-<link rel="stylesheet" href="styles.c18d7ec5beb0ba53de7c.css"></head>
+<link rel="stylesheet" href="styles.d0154c5769159b22b026.css"></head>
 <body class="mat-typography">
+  <div class="black valign-wrapper" id="loader" style="height:100vh; width:100vw; position:fixed; z-index:10000; top:0">
+          <div class="center " style="margin:auto">
+              <img src="https://cdn-technunctus.azureedge.net/assets/assets/technunctus_logo.png" alt="logo" class="elementToFadeInAndOut" width="300px">
+              <div>
+                <h1 class="white-text">Loading...</h1>
+              </div>
+          </div>
+  </div>
   <app-root></app-root>
   
   <script>
