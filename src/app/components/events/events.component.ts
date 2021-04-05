@@ -138,6 +138,14 @@ export class EventsComponent implements OnInit, AfterViewInit {
                           world with an armory of ideas and knowledge of CAD - a
                           weapon to reckon with!`
       },
+      {
+        'title' : 'Guest Talk on Security/Blockchain',
+        'code' : '',
+        'img' : 'assets/events/cc_guesttalk.png',
+        'description' : `This will be a workshop/talk on the topic of
+                    Cyber Security or Blockchain. The event will be conducted by
+                    a senior scientist/researcher/industry experts .`
+      },
     ]
   }
 
