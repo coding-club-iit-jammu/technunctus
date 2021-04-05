@@ -413,11 +413,11 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
         'Students will be given a problem statement onthe spot',
         '5 hours time limit',
         'Participants will be provided with certificates',
-        'Prizes worth Rs. 10K'
+        'Prizes worth Rs. 9K'
       ],
       'conduct' : [
         'It will be conducted in online mode.',
-        'The files shall be submitted using one of the followingsoftware:-  Solidworks/Autodesk  Inventor/Onshape(ifyou do not have access to any software)',
+        'The files shall be submitted using one of the followingsoftware:-  Solidworks 2019,Autodesk 2020/21, Inventor 2020, OnShape.',
         'Any form of plagiarism in the answers would not betolerated.'
       ],
       'heads' : [
