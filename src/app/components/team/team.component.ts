@@ -60,7 +60,7 @@ export class TeamComponent implements OnInit, AfterViewInit {
       },
       {
         'name' : 'Akshat',
-        'img' : 'default.png',
+        'img' : 'akshat.jpg',
         'position' : 'Astronomy Club Head',
         'phone' : '9797092089'
       },
