@@ -11,6 +11,7 @@ import { TeamComponent } from './components/team/team.component';
 import {MatButtonModule} from '@angular/material/button';
 import { SponsorComponent } from './components/sponsor/sponsor.component';
 import { SingleeventComponent } from './components/singleevent/singleevent.component';
+import { GtagModule } from 'angular-gtag';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { SingleeventComponent } from './components/singleevent/singleevent.compo
     AppRoutingModule,
     BrowserAnimationsModule,
     AngularTiltModule,
-    MatButtonModule
+    MatButtonModule,
+    GtagModule.forRoot({ trackingId: 'UA-193856325-1', trackPageviews: true })
   ],
   providers: [],
   bootstrap: [AppComponent]
