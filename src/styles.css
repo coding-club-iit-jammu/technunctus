@@ -14,7 +14,7 @@ body{overflow-x: hidden}
     position: fixed;
     background-color:rgba(0, 0, 255, 0.77);
     z-index: 1;
-    background-image: url(assets/dots.png), url(assets/lines.png);
+    background-image: url(https://cdn-technunctus.azureedge.net/assets/dots.png), url(https://cdn-technunctus.azureedge.net/assets/lines.png);
     background-blend-mode: exclusion;
     filter: grayscale(100%);
     background-size: 100px, 200px;
