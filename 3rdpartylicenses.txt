@@ -63,6 +63,9 @@ MIT
 @angular/router
 MIT
 
+angular-gtag
+MIT
+
 angular-tilt
 MIT
 
