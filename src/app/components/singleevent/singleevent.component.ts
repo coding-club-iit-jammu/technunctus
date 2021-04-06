@@ -199,7 +199,7 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
     var event = {
       'name' : 'Astronomy Guest Talk',
       'img' : 'assets/events/astrophysics.png',
-      'link' :'',
+      'link' :'https://forms.gle/4vZvBmeowJpHdS5M6',
       'desc' : `This will be a workshop on the topic on the theme of
                 astronomy/astrophysics. The event will be conducted by
                 a senior scientist/researcher in the field of astrophysics.`,
@@ -225,7 +225,7 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
     var event = {
       'name' : 'Treasure Hunt',
       'img' : 'assets/events/treasure_hunt.png',
-      'link' :'',
+      'link' :'https://forms.gle/72yGXBpnigttkEyu8',
       'desc' : `Astronomy Club presents Treasure Hunt for
                 Technunctus ‘21 edition. Participants have to solve
                 many pieces of a puzzle with the help of given hints to
