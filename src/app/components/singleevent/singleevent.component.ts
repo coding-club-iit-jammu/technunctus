@@ -121,7 +121,7 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
         'Judging will be based on the hidden test case',
         'In case of tie, creativity and simulation time will be the judging criteria.',
         'E-certificates will be given to the winners',
-        'Prizes worth Rs 11.5k.'
+        'Prizes worth Rs 7k.'
       ],
       'conduct' : [
         'It is an individual event.',
@@ -188,14 +188,14 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
       'desc' : `This is an exclusive event wherein the participants will
                 have to find solutions to some mind-bending astronomy
                 problems statements within a given time frame. The top
-                three victors will be given prizes worth INR 9000/-.`,
+                three victors will be given prizes worth INR 5.5K.`,
       'guidelines' : [
         'General problem statements on Astrophysics will be uploaded on D2C/fest website.',
         'Participants will have to submit the solution/explanation/answer through google form within 1.5 hours from the time of releasing of questions (preferably in pdf or doc format).',
         'In case of a tie in scores, earlier submission will be preferred. And in case the tie persists, date of birth will be considered(younger first).',
         'If any extra data is used by the participant which is not trivial according to the problem statement then he/she is required to duly mention its source and reference.',
         'The decision of the jury will be final under any circumstances.',
-        'Total prize money for top three participants is INR 9000.'
+        'Total prize money for top three participants is INR 5.5K.'
       ],
       'conduct' : [
         'It is an individual event.',
@@ -256,7 +256,7 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
         'The participant who submits most answers in the least timewill be declared the winner.',
         'In case of tie, the participant who submits earlier will be given the upper rank. If tie still exists, then in that case the participant from IIT Jammu will be given upper rank. If a tie still exists, then a toss will be used to break the tie.',
         'E-certificates to winners.',
-        'Prizes worth Rs. 16k will be distributed.'
+        'Prizes worth Rs. 9.5k will be distributed.'
       ],
       'conduct' : [
         'It is an individual event.',
@@ -326,7 +326,7 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
         'All participants must be from the same college.',
         'There will be 5-6 algorithmic questions.',
         'E-certificates to all.',
-        'Prizes worth Rs. 27K'
+        'Prizes worth Rs. 16K'
       ],
       'conduct' : [
         'The event will be completely online on a given website',
@@ -360,7 +360,7 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
         'One has to code to solve the puzzle',
         'There will be 5-10 levels in the game.',
         'E-certificates to all.',
-        'Prizes worth Rs. 9K'
+        'Prizes worth Rs. 5.5K'
       ],
       'conduct' : [
         'The event will be complete online on a given website',
@@ -396,7 +396,7 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
         'Presentation (time limit)    - 10 min',
         'Q/A session (by judging panel) - 5 min',
         'Submission of soft copy- 12 hrs before the event',
-        'Prizes worth Rs. 9K'
+        'Prizes worth Rs. 5.5K'
       ],
       'conduct' : [
         'Online mode - Through Zoom',
@@ -432,7 +432,7 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
         'Students will be given a problem statement on the spot',
         '5 hours time limit',
         'Participants will be provided with certificates',
-        'Prizes worth Rs. 9K'
+        'Prizes worth Rs. 5.5K'
       ],
       'conduct' : [
         'It will be conducted in online mode.',
