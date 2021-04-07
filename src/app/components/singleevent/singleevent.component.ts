@@ -87,9 +87,9 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
                 Chahat who is a member of team Mars Rover will be
                 throwing light on this buzzing topic.`,
       'guest' : [
-        'Deputy Electrical Integration and Test Lead forperseverance assembly, test, and launch operations team.',
+        'Deputy Electrical Integration and Test Lead for perseverance assembly, test, and launch operations team.',
         'Psyche ATLO Electrical Integration & Test Lead (JPL)+ VP of Innovation & Technology (SHPE LA Chapter).',
-        `System Engineer in NASA's Jet PropulsionLaboratory, Pasadena, CA, USA.everance roverMission.`
+        `System Engineer in NASA's Jet Propulsion Laboratory, Pasadena, CA, USA.Perseverance Rover Mission.`
       ],
       'heads' : [
         {
@@ -116,10 +116,10 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
               solutions. Top 3 Teams will be eligible for the prizes.`,
       'guidelines' : [
         'Participants have to write code in VHDL or Verilog.',
-        'Writing a test bench is not mandatory, writing it will addprivilege for the participants',
+        'Writing a test bench is not mandatory, writing it will add privilege for the participants',
         'Code should be simulateble, synthesis is not mandatory',
         'Judging will be based on the hidden test case',
-        'In case of tie, creativity and simulation time will be thejudging criteria.',
+        'In case of tie, creativity and simulation time will be the judging criteria.',
         'E-certificates will be given to the winners',
         'Prizes worth Rs 11.5k.'
       ],
@@ -191,16 +191,16 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
                 three victors will be given prizes worth INR 9000/-.`,
       'guidelines' : [
         'General problem statements on Astrophysics will be uploaded on D2C/fest website.',
-        'Participants will have to submit the solution/explanation/answer through googleform within 1.5 hours from the time of releasing of questions (preferably in pdf ordoc format).',
-        'In case of a tie in scores, earlier submission will be preferred. And in case the tiepersists, date of birth will be considered(younger first).',
-        'If any extra data is used by the participant which is not trivial according to theproblem statement then he/she is required to duly mention its source andreference.',
+        'Participants will have to submit the solution/explanation/answer through google form within 1.5 hours from the time of releasing of questions (preferably in pdf or doc format).',
+        'In case of a tie in scores, earlier submission will be preferred. And in case the tie persists, date of birth will be considered(younger first).',
+        'If any extra data is used by the participant which is not trivial according to the problem statement then he/she is required to duly mention its source and reference.',
         'The decision of the jury will be final under any circumstances.',
         'Total prize money for top three participants is INR 9000.'
       ],
       'conduct' : [
         'It is an individual event.',
         'The event will be conducted on D2C/Technunctus website or any other online platform.',
-        'A whatsapp group will be created with all the participants, where the event details willbe shared and queries will be addressed.'
+        'A whatsapp group will be created with all the participants, where the event details will be shared and queries will be addressed.'
       ],
       'heads' : [
         {
@@ -254,7 +254,7 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
                 time will be winners.`,
       'guidelines' : [
         'The participant who submits most answers in the least timewill be declared the winner.',
-        'In case of tie, the participant who submits earlier will begiven the upper rank. If tie still exists, then in that case theparticipant from IIT Jammu will be given upper rank. If a tiestill exists, then a toss will be used to break the tie.',
+        'In case of tie, the participant who submits earlier will be given the upper rank. If tie still exists, then in that case the participant from IIT Jammu will be given upper rank. If a tie still exists, then a toss will be used to break the tie.',
         'E-certificates to winners.',
         'Prizes worth Rs. 16k will be distributed.'
       ],
@@ -292,11 +292,11 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
                 weapon to reckon with!`,
       'guidelines' : [
         'E-certificates to all.',
-        'Volunteers  will  be  present  to  assist  theparticipants during the workshop.'
+        'Volunteers  will  be  present  to  assist  the participants during the workshop.'
       ],
       'conduct' : [
         'The event will be conducted through online mode.',
-        'Participants will join the meeting on their mobilephones, and use the software ontheir PCs.'
+        'Participants will join the meeting on their mobile phones, and use the software on their PCs.'
       ],
       'heads' : [
         {
@@ -317,9 +317,9 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
       'name' : 'Technunctus Programming Comptetion',
       'img' : 'assets/events/tpc.png',
       'link' :'https://forms.gle/YCCF3t8XE6JqNhPt6',
-      'desc' : `This is a team programming contest, whereparticipants will be given some
-                algorithmicproblems  to  solve  within  2-3  hours.Participants can use
-                any language of theirchoice to code their solutions. This event willbe a
+      'desc' : `This is a team programming contest, where participants will be given some
+                algorithmic problems to solve  within 2-3  hours. Participants can use
+                any language of their choice to code their solutions. This event will be a
                 single online round. \n Top 3 Teams willbe eligible for the prizes.`,
       'guidelines' : [
         'All teams must have 2-3 participants.',
@@ -329,7 +329,7 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
         'Prizes worth Rs. 27K'
       ],
       'conduct' : [
-        'The event will be complete online on a given website',
+        'The event will be completely online on a given website',
         'Team formation is mandatory for participation',
         'The time limit is 2.5-3 hrs.'
       ],
@@ -356,7 +356,7 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
                   The one to complete the maximum number of levels will
                   win the challenge`,
       'guidelines' : [
-        'The one to complete all level with the least timewill be the winner.',
+        'The one to complete all level with the least time will be the winner.',
         'One has to code to solve the puzzle',
         'There will be 5-10 levels in the game.',
         'E-certificates to all.',
@@ -400,7 +400,7 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
       ],
       'conduct' : [
         'Online mode - Through Zoom',
-        'Students in the campus  will be provided with collegewifi and a separate place during event timings.',
+        'Students in the campus  will be provided with college wifi and a separate place during event timings.',
         'Teams have to come with their own laptops.'
       ],
       'heads' : [
@@ -421,23 +421,23 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
       'name' : 'CADstar',
       'img' : 'assets/events/cadstar.png',
       'link' :'https://forms.gle/LZXQ7EypPPaG17Mu7',
-      'desc' : `Performance, reliability and market arewhat drives the designs in modernengineering.
-                You might find a lot of designsfor the same thing but not all of them makeit to the top.
-                Do you have what it takes tomake a perfect engineering design?CADstar  is  a  unique  one 
-                of  its  kindcompetitions where designing, analysis andsimulation  skills  along  with
-                innovation,reasoning and logic are put to test.Come and put your brains to work and
-                bethe next CADstar!`,
+      'desc' : `Performance, reliability and market are what drives the designs in modern engineering.
+                You might find a lot of designs for the same thing but not all of them make it to the top.
+                Do you have what it takes to make a perfect engineering design?CADstar  is  a  unique  one 
+                of  its  kind competitions where designing, analysis and simulation  skills  along  with
+                innovation,reasoning and logic are put to test. Come and put your brains to work and
+                be the next CADstar!`,
       'guidelines' : [
         'Team size - 2 to 4 Students',
-        'Students will be given a problem statement onthe spot',
+        'Students will be given a problem statement on the spot',
         '5 hours time limit',
         'Participants will be provided with certificates',
         'Prizes worth Rs. 9K'
       ],
       'conduct' : [
         'It will be conducted in online mode.',
-        'The files shall be submitted using one of the followingsoftware:-  Solidworks 2019,Autodesk 2020/21, Inventor 2020, OnShape.',
-        'Any form of plagiarism in the answers would not betolerated.'
+        'The files shall be submitted using one of the following software:-  Solidworks 2019,Autodesk 2020/21, Inventor 2020, OnShape.',
+        'Any form of plagiarism in the answers would not be tolerated.'
       ],
       'heads' : [
         {
