@@ -75,7 +75,7 @@ export class EventsComponent implements OnInit, AfterViewInit {
         'description' : `This is an exclusive event wherein the participants will
                           have to find solutions to some mind-bending astronomy
                           problems statements within a given time frame. The top
-                          three victors will be given prizes worth INR 9000/-.`
+                          three victors will be given prizes worth INR 5.5K.`
       },
       {
         'title' : 'Guest Talk',
