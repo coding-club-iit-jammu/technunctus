@@ -220,12 +220,12 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
       'name' : 'Astronomy Guest Talk',
       'img' : 'assets/events/astrophysics.png',
       'link' :'https://forms.gle/4vZvBmeowJpHdS5M6',
-      'desc' : `This will be a workshop on the topic on the theme of
-                astronomy/astrophysics. The event will be conducted by
-                a senior scientist/researcher in the field of astrophysics.`,
-      'conduct' : [
-        'The event will be conmpletely online.',
-        'The time limit is 1.5 hours.'
+      'desc' : `This is an expert talk with Dr. Jaydeep Mukherjee, who will tell us about NASA's Artemis project, 
+                which plans to send astronauts back to Moon, and establish a human base at Moon to support future
+                missions sending astronauts to Mars !"`,
+      'guest' : [
+        'Dr. Jaydeep Mukherjee is the director of NASA Florida Space Grant Consortium.',
+        'Dr. Jaydeep has done his bachelors degree from India, and Masters as well as PhD from University of Florida',
       ],
       'heads' : [
         {
