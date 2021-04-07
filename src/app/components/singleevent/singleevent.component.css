@@ -5,6 +5,7 @@ li{
     list-style-type: square !important;
     font-size: 1.4rem;
     margin-bottom: 8px;
+    line-height:25px;
 }
 
 .mat-button-disabled{

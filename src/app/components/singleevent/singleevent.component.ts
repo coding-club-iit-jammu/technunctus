@@ -59,12 +59,17 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
   getBlockchainTalk(){
     var event = {
       'name' : 'Guest Talk on Blockchain',
-      'img' : 'assets/events/cc_guesttalk.png',
+      'img' : 'assets/events/raj-kapoor.png',
       'link' : '',
-      'desc' : `This will be a workshop/talk on the topic of
-                or Blockchain. The event will be conducted by
+      'desc' : `This will be a talk on the topic of
+                Blockchain. The event will be conducted by
                 a senior scientist/researcher/industry experts `,
       'guest' : [
+        `Raj Kapoor is an Advisory Board Member at several blockchain companies
+        and the Founder and Chairman of the IndiaBlockchain Alliance, the largest
+        Indian emerging technologytech think tank.`,
+        `He is an accomplished tech innovation professional, Certified Bitcoin Professional (CBP), and protem
+        Chairman for Organization of Blockchain Technology Users (OBTU).`
       ],
       'heads' : [
         {

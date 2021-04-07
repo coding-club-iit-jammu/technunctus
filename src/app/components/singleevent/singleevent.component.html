@@ -36,15 +36,17 @@
                     <li>{{item}}</li>
                 </ul>
             </div>
-            <div style="padding: 30px 0;" *ngIf="event['heads']">
-                <b><h1>Event Heads:</h1></b>
-                <ul style="margin-left: 30px;" *ngFor="let item of event['heads']">
-                    <li style="list-style-type: cambodian !important;">{{item['name']}} <a href="https://api.whatsapp.com/send/?phone=+91{{item['contact']}}" target="_blank">+91 {{item['contact']}}</a></li>
-                </ul>
-            </div>
         </div>
         <div class="col s12 m5 l4">
             <img src="https://cdn-technunctus.azureedge.net/{{event['img']}}" alt="" width="100%">
+        </div>
+    </div>
+    <div class="row">
+        <div style="padding: 30px 0;" *ngIf="event['heads']">
+            <b><h1>Event Heads:</h1></b>
+            <ul style="margin-left: 30px;" *ngFor="let item of event['heads']">
+                <li style="list-style-type: cambodian !important;">{{item['name']}} <a href="https://api.whatsapp.com/send/?phone=+91{{item['contact']}}" target="_blank">+91 {{item['contact']}}</a></li>
+            </ul>
         </div>
     </div>
 </div>
