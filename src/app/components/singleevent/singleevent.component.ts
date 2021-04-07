@@ -80,7 +80,7 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
     var event = {
       'name' : 'Guest Talk',
       'img' : 'assets/events/preservance_rover.png',
-      'link' : '',
+      'link' : 'https://docs.google.com/forms/d/e/1FAIpQLScNiR-wkVzuJtYdvx6UG9t4TaEztGL6Vpj4k1imeMk206br5g/viewform?usp=sf_link',
       'desc' : `Get ready to know the technicalities of the Perseverance
                 rover sent by NASA recently to seek signs of ancient life
                 and collect samples of rock from Mars. Guest Nachit
