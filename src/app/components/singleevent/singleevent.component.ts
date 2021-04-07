@@ -356,7 +356,7 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
                   The one to complete the maximum number of levels will
                   win the challenge`,
       'guidelines' : [
-        'The one to complete all level with the least time will be the winner.',
+        'The one to complete most levels with the least time will be the winner.',
         'One has to code to solve the puzzle',
         'There will be 5-10 levels in the game.',
         'E-certificates to all.',
@@ -390,7 +390,7 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
                 and creativity in technical expertise. Participants are
                 required to come up with interesting and innovative
                 solutions to tackle the real life challenges faced by
-                industries, BAJA, and SUPRA teams. There would be a short Q&A session at the end of each presentation.`,
+                industries. There would be a short Q&A session at the end of each presentation.`,
       'guidelines' : [
         'Team size - Minimum 2 , Maximum 4',
         'Presentation (time limit)    - 10 min',
