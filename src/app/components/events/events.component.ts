@@ -139,11 +139,11 @@ export class EventsComponent implements OnInit, AfterViewInit {
                           weapon to reckon with!`
       },
       {
-        'title' : 'Guest Talk on Security/Blockchain',
-        'code' : '',
+        'title' : 'Guest Talk on Blockchain',
+        'code' : 'BCHAINGT',
         'img' : 'assets/events/cc_guesttalk.png',
         'description' : `This will be a workshop/talk on the topic of
-                    Cyber Security or Blockchain. The event will be conducted by
+                    or Blockchain. The event will be conducted by
                     a senior scientist/researcher/industry experts .`
       },
     ]

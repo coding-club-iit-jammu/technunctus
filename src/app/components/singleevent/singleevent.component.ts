@@ -46,7 +46,7 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
       'ROBOREBB':  this.getROBOREBB,
       'ROBOHDL' : this.getROBOHDL,
       'ROBOGT' : this.getROBOGT,
-
+      'BCHAINGT' : this.getBlockchainTalk
     }
     try{
       this.event = funmap[this.eventID]();
@@ -54,6 +54,26 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
     catch(err){
       console.log("not found")
     }
+  }
+
+  getBlockchainTalk(){
+    var event = {
+      'name' : 'Guest Talk on Blockchain',
+      'img' : 'assets/events/cc_guesttalk.png',
+      'link' : '',
+      'desc' : `This will be a workshop/talk on the topic of
+                or Blockchain. The event will be conducted by
+                a senior scientist/researcher/industry experts `,
+      'guest' : [
+      ],
+      'heads' : [
+        {
+          'name' : 'Sachin',
+          'contact' : '6005053183'
+        }
+      ]
+    }
+    return event;
   }
 
   getROBOGT(){

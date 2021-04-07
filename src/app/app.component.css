@@ -20,3 +20,11 @@
 nav ul a:hover{
     color: wheat;
 }
+
+.social-icons a{
+    color: wheat;
+}
+.social-icons a:hover{
+    color:azure;
+}
+
