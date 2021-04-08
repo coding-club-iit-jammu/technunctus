@@ -361,7 +361,7 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
                   The one to complete the maximum number of levels will
                   win the challenge`,
       'guidelines' : [
-        'The one to complete all level with the least time will be the winner.',
+        'The one to complete most levels with the least time will be the winner.',
         'One has to code to solve the puzzle',
         'There will be 5-10 levels in the game.',
         'E-certificates to all.',
