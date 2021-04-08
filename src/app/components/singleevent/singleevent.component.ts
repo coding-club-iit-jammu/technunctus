@@ -60,7 +60,7 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
     var event = {
       'name' : 'Guest Talk on Blockchain',
       'img' : 'assets/events/raj-kapoor.png',
-      'link' : '',
+      'link' : 'https://forms.gle/mGoSeJzudMExeQf47',
       'desc' : `This will be a talk on the topic of
                 Blockchain. The event will be conducted by
                 a senior scientist/researcher/industry experts `,
