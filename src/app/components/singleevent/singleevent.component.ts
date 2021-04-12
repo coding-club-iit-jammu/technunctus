@@ -319,13 +319,13 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
 
   getTPC(){
     var event = {
-      'name' : 'Technunctus Programming Comptetion',
+      'name' : 'Technunctus Programming Contest',
       'img' : 'assets/events/tpc.png',
       'link' :'https://forms.gle/YCCF3t8XE6JqNhPt6',
       'desc' : `This is a team programming contest, where participants will be given some
                 algorithmic problems to solve  within 2-3  hours. Participants can use
                 any language of their choice to code their solutions. This event will be a
-                single online round. \n Top 3 Teams willbe eligible for the prizes.`,
+                single online round. Top 3 Teams will be eligible for the prizes.`,
       'guidelines' : [
         'All teams must have 2-3 participants.',
         'All participants must be from the same college.',
