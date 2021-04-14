@@ -42,23 +42,6 @@ export class EventsComponent implements OnInit, AfterViewInit {
                         time will be winners.`
       },
       {
-        'title' : 'Rebbecca',
-        'code' : 'ROBOREBB',
-        'img' : 'assets/events/rebeca.png',
-        'description' : `Hit and Trail is one of the fundamental practices which
-                          have been the enlightenment candle for the human
-                          civilization, you all would have at any point of time have
-                          seen the trial attempts Tony Stark did while trying to
-                          make his suit and did crash landed on his Porsche Car
-                          certainly we cannot afford that luxury, but you would
-                          have dreamt that someday you will also be able to do it.
-                          Now you have your chance, in this event you will be
-                          making and simultaneously simulating your robot in
-                          Gazebo Platform and you will have to perform certain
-                          specific tasks which will be provided to you after
-                          registering for the event.`
-      },
-      {
         'title' : 'CADstar',
         'code' : 'CADSTAR',
         'img' : 'assets/events/cadstar.png',
