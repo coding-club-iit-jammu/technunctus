@@ -43,7 +43,6 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
       'ASTROTH' : this.getASTROTH,
       'ASTROGT': this.getASTROGT,
       'ASTROCH': this.getASTROCH,
-      'ROBOREBB':  this.getROBOREBB,
       'ROBOHDL' : this.getROBOHDL,
       'ROBOGT' : this.getROBOGT,
       'BCHAINGT' : this.getBlockchainTalk
