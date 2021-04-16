@@ -12,6 +12,9 @@
     .midEle{
         display: block;
     }
+    .homeMob{
+      margin-bottom: 200px;
+    }
 }
 
 .customText{
