@@ -25,6 +25,12 @@
                     <li>{{item}}</li>
                 </ul>
             </div>
+            <div style="padding: 30px 0;" *ngIf="event['mlink']">
+                <b><h1>Links:</h1></b>
+                <ul style="margin-left: 30px;" *ngFor="let item of event['mlink']">
+                    <li><a href="{{item}}" target="_blank">{{item}}</a></li>
+                </ul>
+            </div>
             <div style="padding: 30px 0;" *ngIf="event['guidelines']">
                 <b><h1>Guidelines:</h1></b>
                 <ul style="margin-left: 30px;" *ngFor="let item of event['guidelines']">

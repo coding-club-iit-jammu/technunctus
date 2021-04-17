@@ -359,6 +359,9 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
                   either code or find the hint to solve a technical problem.
                   The one to complete the maximum number of levels will
                   win the challenge`,
+      'mlink' : [
+        'https://conundrum.technunctus.co'
+      ],
       'guidelines' : [
         'The one to complete most levels with the least time will be the winner.',
         'One has to code to solve the puzzle',
