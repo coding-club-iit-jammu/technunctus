@@ -397,7 +397,7 @@ export class SingleeventComponent implements OnInit, AfterViewInit {
                 and creativity in technical expertise. Participants are
                 required to come up with interesting and innovative
                 solutions to tackle the real life challenges faced by
-                industries, BAJA, and SUPRA teams. There would be a short Q&A session at the end of each presentation.`,
+                industries. There would be a short Q&A session at the end of each presentation.`,
       'guidelines' : [
         'Team size - Minimum 2 , Maximum 4',
         'Presentation (time limit)    - 10 min',
